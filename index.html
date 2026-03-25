@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coin Flip App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🪙 Coin Flip</h1>
+
+  <div class="controls">
+    <label>Select Side:</label>
+    <select id="userChoice">
+      <option value="heads">Heads</option>
+      <option value="tails">Tails</option>
+    </select>
+
+    <label>Number of Tosses:</label>
+    <input type="number" id="tries" value="1" min="1" max="10">
+
+    <button onclick="startFlip()">Flip Coin</button>
+  </div>
+
+  <div class="coin-container">
+    <img id="coin" src="coin-heads.png" alt="coin">
+  </div>
+
+  <div id="dashboard" class="hidden">
+    <h2>Result</h2>
+    <p id="resultText"></p>
+    <p id="timeText"></p>
+    <p id="remainingText"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
