@@ -21,7 +21,7 @@ This project was created to:
 
 ## 🚀 How to Run
 
-Simply open `index.html` in any modern web browser.
+Simply open `https://juandresrodca.github.io/coin-flip-app/` in any modern web browser.
 
 ---
 *Created as part of a JS practice project.*
